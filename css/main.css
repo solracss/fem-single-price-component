@@ -62,5 +62,48 @@ body {
     min-height: 100vh;
     font-family: "Karla", sans-serif;
     font-weight: 400;
+    color: #fff;
     background-color: #e6eff5;
+}
+
+.container {
+    max-width: 311px;
+    background-color: #2ab3b1;
+    border-radius: 5px;
+    box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+    overflow: hidden;
+}
+
+.description,
+.subscription,
+.why-us {
+    padding: 24px;
+}
+
+.description {
+    padding-top: 28px;
+    background-color: #fff;
+}
+
+.title {
+    color: #2ab3b1;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.015625rem;
+}
+
+.title + .subtitle {
+    margin-top: 24px;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: -0.0116875rem;
+    color: #c0df33;
+}
+
+.lib-description {
+    margin-top: 14px;
+    font-size: 0.875rem;
+    color: #9aa7be;
+}
 }/*# sourceMappingURL=main.css.map */

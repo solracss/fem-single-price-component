@@ -10,5 +10,47 @@ body {
 	min-height: 100vh;
 	font-family: $ff-base;
 	font-weight: $fw-normal;
+	color: $white;
 	background-color: $background;
+}
+
+.container {
+	max-width: 311px;
+	background-color: $cyan;
+	border-radius: 5px;
+	box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+	overflow: hidden;
+}
+
+.description,
+.subscription,
+.why-us {
+	padding: 24px;
+}
+
+.description {
+	padding-top: 28px;
+	background-color: #fff;
+}
+
+.title {
+	color: $cyan;
+	font-size: rem(20px);
+	font-weight: $fw-bold;
+	letter-spacing: rem(-0.25px);
+}
+
+.title + .subtitle {
+	margin-top: 24px;
+	font-size: rem(15px);
+	font-weight: $fw-bold;
+	line-height: rem(20px);
+	letter-spacing: rem(-0.187px);
+	color: $light-green;
+}
+
+.lib-description {
+	margin-top: 14px;
+	font-size: rem(14px);
+	color: $gray;
 }

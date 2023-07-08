@@ -54,3 +54,18 @@ body {
 	font-size: rem(14px);
 	color: $gray;
 }
+
+.why-us {
+	position: relative;
+}
+
+.why-us::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	opacity: 0.15;
+}

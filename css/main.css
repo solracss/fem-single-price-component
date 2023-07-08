@@ -106,4 +106,18 @@ body {
     font-size: 0.875rem;
     color: #9aa7be;
 }
+
+.why-us {
+    position: relative;
+}
+
+.why-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.15;
 }/*# sourceMappingURL=main.css.map */

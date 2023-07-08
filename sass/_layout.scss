@@ -1,0 +1,14 @@
+@use "./colors" as *;
+@use "./reset" as *;
+@use "./typography" as *;
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 72px 32px 62px;
+	min-height: 100vh;
+	font-family: $ff-base;
+	font-weight: $fw-normal;
+	background-color: $background;
+}

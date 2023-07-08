@@ -59,6 +59,7 @@ body {
 	font-size: rem(14px);
 	color: $gray;
 	line-height: rem(26px);
+	letter-spacing: rem(-0.175px);
 }
 
 .subscription-price {
@@ -116,5 +117,7 @@ body {
 .features {
 	margin-top: 18px;
 	opacity: 0.75;
-	line-height: 20px;
+	font-size: rem(14px);
+	line-height: rem(20px);
+	letter-spacing: rem(-0.175px);
 }

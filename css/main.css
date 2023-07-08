@@ -111,6 +111,7 @@ body {
     font-size: 0.875rem;
     color: #9aa7be;
     line-height: 1.625rem;
+    letter-spacing: -0.0109375rem;
 }
 
 .subscription-price {
@@ -168,5 +169,7 @@ body {
 .features {
     margin-top: 18px;
     opacity: 0.75;
-    line-height: 20px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.0109375rem;
 }/*# sourceMappingURL=main.css.map */

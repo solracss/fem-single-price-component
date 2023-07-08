@@ -40,11 +40,16 @@ body {
 	letter-spacing: rem(-0.25px);
 }
 
+.subtitle {
+	font-size: rem(18px);
+	font-weight: $fw-bold;
+	line-height: rem(20px);
+	letter-spacing: rem(-0.225px);
+}
+
 .title + .subtitle {
 	margin-top: 24px;
 	font-size: rem(15px);
-	font-weight: $fw-bold;
-	line-height: rem(20px);
 	letter-spacing: rem(-0.187px);
 	color: $light-green;
 }
@@ -53,6 +58,7 @@ body {
 	margin-top: 14px;
 	font-size: rem(14px);
 	color: $gray;
+	line-height: rem(26px);
 }
 
 .why-us {

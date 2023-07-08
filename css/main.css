@@ -92,11 +92,16 @@ body {
     letter-spacing: -0.015625rem;
 }
 
+.subtitle {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: -0.0140625rem;
+}
+
 .title + .subtitle {
     margin-top: 24px;
     font-size: 0.9375rem;
-    font-weight: 700;
-    line-height: 1.25rem;
     letter-spacing: -0.0116875rem;
     color: #c0df33;
 }
@@ -105,6 +110,7 @@ body {
     margin-top: 14px;
     font-size: 0.875rem;
     color: #9aa7be;
+    line-height: 1.625rem;
 }
 
 .why-us {

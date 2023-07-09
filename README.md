@@ -1,4 +1,4 @@
-# Frontend Mentor - [Huddle landing page with a single introductory section.]()
+# Frontend Mentor - [Single price grid component.](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc)
 
 ## Table of contents
 
@@ -26,8 +26,8 @@ Your users should be able to:
 
 <summary>Click to open</summary>
 
-![Desktop]()
-![Mobile]()
+![Desktop](https://i.imgur.com/j92eCSu.png)
+![Mobile](https://i.imgur.com/n3K7s6x.png)
 
 </details>
 
@@ -47,3 +47,20 @@ Your users should be able to:
 </div>
 
 ### What I learned
+
+1. Applying overlay background with pseudo.
+
+```css
+.why-us::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	opacity: 0.15;
+}
+```
+
+2. Working with two column display using flexbox.

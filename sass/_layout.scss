@@ -38,6 +38,7 @@ body {
 	font-size: rem(20px);
 	font-weight: $fw-bold;
 	letter-spacing: rem(-0.25px);
+	line-height: normal;
 }
 
 .subtitle {
@@ -120,4 +121,39 @@ body {
 	font-size: rem(14px);
 	line-height: rem(20px);
 	letter-spacing: rem(-0.175px);
+}
+
+@media (min-width: 768px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		max-width: 635px;
+	}
+
+	.description,
+	.subscription,
+	.why-us {
+		padding: 40px;
+	}
+
+	.details {
+		display: flex;
+	}
+
+	.subscription,
+	.why-us {
+		width: 50%;
+	}
+
+	.title {
+		font-size: rem(24px);
+	}
+
+	.subtitle {
+		font-size: rem(18px);
+	}
+
+	.lib-description {
+		font-size: rem(16px);
+	}
 }

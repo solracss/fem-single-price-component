@@ -90,6 +90,7 @@ body {
     font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: -0.015625rem;
+    line-height: normal;
 }
 
 .subtitle {
@@ -172,4 +173,33 @@ body {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: -0.0109375rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 635px;
+    }
+    .description,
+    .subscription,
+    .why-us {
+        padding: 40px;
+    }
+    .details {
+        display: flex;
+    }
+    .subscription,
+    .why-us {
+        width: 50%;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .subtitle {
+        font-size: 1.125rem;
+    }
+    .lib-description {
+        font-size: 1rem;
+    }
 }/*# sourceMappingURL=main.css.map */

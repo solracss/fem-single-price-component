@@ -125,6 +125,7 @@ body {
 
 .price {
     font-size: 2rem;
+    font-weight: 700;
 }
 
 .duration {
@@ -185,6 +186,9 @@ body {
     .subscription,
     .why-us {
         padding: 40px;
+    }
+    .description > .subtitle {
+        font-size: 1.125rem;
     }
     .details {
         display: flex;

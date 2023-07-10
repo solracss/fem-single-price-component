@@ -73,6 +73,7 @@ body {
 
 .price {
 	font-size: rem(32px);
+	font-weight: $fw-bold;
 }
 
 .duration {
@@ -134,6 +135,10 @@ body {
 	.subscription,
 	.why-us {
 		padding: 40px;
+	}
+
+	.description > .subtitle {
+		font-size: rem(18px);
 	}
 
 	.details {
